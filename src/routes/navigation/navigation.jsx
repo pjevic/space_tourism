@@ -16,25 +16,25 @@ const Navigation = () => {
         <ul className={style.navigation__links}>
           <li>
             <Link className={style.navigation__link} to="/">
-              Home
+              <strong>00</strong> Home
             </Link>
           </li>
 
           <li>
             <Link className={style.navigation__link} to="/destination">
-              Destination
+              <strong>01</strong> Destination
             </Link>
           </li>
 
           <li>
             <Link className={style.navigation__link} to="/crew">
-              Crew
+              <strong>02</strong> Crew
             </Link>
           </li>
 
           <li>
             <Link className={style.navigation__link} to="/technology">
-              Technology
+              <strong>03</strong> Technology
             </Link>
           </li>
         </ul>
