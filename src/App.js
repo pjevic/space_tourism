@@ -6,8 +6,6 @@ import Destination from "./routes/destination/destination";
 import Crew from "./routes/crew/crew";
 import Technology from "./routes/technology/technology";
 
-import "./App.css";
-
 const App = () => {
   return (
     <Routes>
