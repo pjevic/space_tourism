@@ -1,7 +1,7 @@
 import React from "react";
 
 function Paragraph({ className, innerText }) {
-  return <p className={className}>{innerText}</p>;
+  return <p className="paragraph">{innerText}</p>;
 }
 
 export default Paragraph;

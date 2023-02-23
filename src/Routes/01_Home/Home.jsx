@@ -16,9 +16,9 @@ const Home = () => {
   return (
     <div className={style.home}>
       <Card>
-        <Heading5 className="heading heading__5" innerText={heading__5} />
-        <Heading1 className="heading heading__1" innerText={heading__1} />
-        <Paragraph className="paragraph" innerText={paragraph} />
+        <Heading5 innerText={heading__5} />
+        <Heading1 innerText={heading__1} />
+        <Paragraph innerText={paragraph} />
       </Card>
       <LandingPageMainButton innerText={button} />
     </div>
