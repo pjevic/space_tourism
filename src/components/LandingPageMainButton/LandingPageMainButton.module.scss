@@ -1,0 +1,17 @@
+@import "../../SCSS/main.scss";
+
+.circle {
+  width: 27.4rem;
+  height: 27.4rem;
+  background-color: #fff;
+  color: black;
+  border-radius: 50%;
+
+  @include flexCenter;
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 1.1459;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}

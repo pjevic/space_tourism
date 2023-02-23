@@ -10,13 +10,3 @@
   justify-content: space-between;
   align-items: end;
 }
-
-.circle {
-  width: 27.4rem;
-  height: 27.4rem;
-  background-color: #fff;
-  color: black;
-  border-radius: 50%;
-
-  @include flexCenter;
-}

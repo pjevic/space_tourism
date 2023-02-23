@@ -1,7 +1,9 @@
 import React from "react";
 
-function landingPageMainButton() {
-  return <div>landingPageMainButton</div>;
+import style from "./LandingPageMainButton.module.scss";
+
+function LandingPageMainButton({ innerText }) {
+  return <div className={style.circle}>{innerText}</div>;
 }
 
-export default landingPageMainButton;
+export default LandingPageMainButton;
