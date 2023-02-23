@@ -1,7 +1,11 @@
+import Card from "../../Components/UI/Card/Card";
+import Heading1 from "../../Components/UI/Heading/Heading1";
+import Heading5 from "../../Components/UI/Heading/Heading5";
+import Paragraph from "../../Components/UI/Paragraph/Paragraph";
 import LandingPageMainButton from "../../Components/LandingPageMainButton/LandingPageMainButton";
 
-import style from "./02_Home.module.scss";
-import "../../SCSS/base/_typography.scss";
+import style from "./Home.module.scss";
+import "../../SCSS/main.scss";
 
 const Home = () => {
   const heading__5 = `so, you want to travel to`;
@@ -11,12 +15,11 @@ const Home = () => {
 
   return (
     <div className={style.home}>
-      <div className="card">
-        <div className="heading heading__5">{heading__5}</div>
-        <div className="heading heading__1">{heading__1}</div>
-        <div className="text">{paragraph}</div>
-      </div>
-
+      <Card>
+        <Heading5 className="heading heading__5" innerText={heading__5} />
+        <Heading1 className="heading heading__1" innerText={heading__1} />
+        <Paragraph className="paragraph" innerText={paragraph} />
+      </Card>
       <LandingPageMainButton innerText={button} />
     </div>
   );
