@@ -1,5 +1,7 @@
-import style from "./home.module.scss";
-import "../../styles/base/_typography.scss";
+import LandingPageMainButton from "../../Components/LandingPageMainButton/LandingPageMainButton";
+
+import style from "./02_Home.module.scss";
+// import "../../SCSS/base/_typography.scss";
 
 const Home = () => {
   return (

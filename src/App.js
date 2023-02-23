@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
 
-import Navigation from "./styles/layout/navigation/navigation";
-import Home from "./routes/home/home";
-import Destination from "./routes/destination/destination";
-import Crew from "./routes/crew/crew";
-import Technology from "./routes/technology/technology";
+import Navigation from "./SCSS/layout/navigation/navigation";
+import Home from "./Routes/01_Home/01_Home";
+import Crew from "./Routes/02_Crew/crew";
+import Destination from "./Routes/03_Destination/destination";
+import Technology from "./Routes/04_Technology/technology";
 
 const App = () => {
   return (
