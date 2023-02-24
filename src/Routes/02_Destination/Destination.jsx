@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 import PageTitle from "../../Components/PageTitle/PageTitle";
+import Heading2 from "../../Components/UI/Heading/Heading2";
 import Paragraph from "../../Components/UI/Paragraph/Paragraph";
 
 import webpMoon from "../../Assets/Images/02_Destination/image-moon.webp";
@@ -11,15 +12,16 @@ import webpTitan from "../../Assets/Images/02_Destination/image-titan.webp";
 import style from "./Destination.module.scss";
 
 const Destination = () => {
-  const paragraph = `The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.`;
+  const heading2 = `moon`;
+  const paragraph = `See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.`;
 
   return (
     <div className={style.destination}>
       <div className="left">
         <PageTitle number="01" title="pick your destination" />
-
         <img src={webpMoon} alt="Moon" />
       </div>
+
       <div className="right">
         <nav className={style.nav}>
           <ul className={style.list}>
@@ -37,7 +39,8 @@ const Destination = () => {
             </li>
           </ul>
         </nav>
-        <div className="title">moon</div>
+
+        <Heading2 innerText={heading2} />
         <Paragraph innerText={paragraph} />
       </div>
     </div>

@@ -3,11 +3,13 @@
 .heading {
   font-family: "Bellefair", serif;
   font-weight: 400;
+  line-height: 1.146;
+
+  color: &$--color--white;
+  text-transform: uppercase;
 
   &__1 {
     font-size: 15rem;
-    line-height: 1.146;
-    text-transform: uppercase;
   }
 
   &__2 {
@@ -26,7 +28,6 @@
     font-family: "Barlow Condensed", sans-serif;
     font-size: 2.8rem;
     letter-spacing: 4.75px;
-    text-transform: uppercase;
     color: $--color__primary--light;
   }
 }
@@ -39,5 +40,5 @@
   line-height: 1.778;
   color: $--color__primary--light;
 
-  width: 444px;
+  max-width: 44.4rem;
 }
