@@ -7,6 +7,7 @@ import Heading2 from "../../Components/UI/Heading/Heading2";
 import Paragraph from "../../Components/UI/Paragraph/Paragraph";
 import Divider from "../../Components/UI/Divider/Divider";
 import Card from "../../Components/UI/Card/Card";
+import DataTile from "../../Components/DataTile/DataTile";
 
 import webpMoon from "../../Assets/Images/02_Destination/image-moon.webp";
 import webpMars from "../../Assets/Images/02_Destination/image-mars.webp";
@@ -39,7 +40,10 @@ const Destination = () => {
         <Heading2 innerText={heading2} />
         <Paragraph innerText={paragraph} />
         <Divider marginT="5.4" marginB="2.8" />
-        <Card className="card"></Card>
+        <Card className="horizontal">
+          <DataTile dataTitle="AVG. DISTANCE" data="384,400 km" />
+          <DataTile dataTitle="Est. travel time" data="3 days" />
+        </Card>
       </div>
     </div>
   );

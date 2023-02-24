@@ -1,7 +1,9 @@
 import React from "react";
 
+import styles from "./Card.module.scss";
+
 function Card({ children, className }) {
-  return <div className={className}>{children}</div>;
+  return <div className={styles[className]}>{children}</div>;
 }
 
 export default Card;
