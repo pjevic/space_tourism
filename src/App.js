@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 
-import Navigation from "./SCSS/layout/navigation/navigation";
+import Navigation from "./Components/Navigation/Navigation";
 import Home from "./Routes/01_Home/Home";
 import Crew from "./Routes/03_Crew/crew";
 import Destination from "./Routes/02_Destination/Destination";

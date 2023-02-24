@@ -8,18 +8,17 @@
 
   display: flex;
   justify-content: space-between;
+
+  img {
+    margin-left: 6.35rem;
+  }
 }
 
 .nav {
   margin-top: 6.4rem;
+  margin-bottom: 3.7rem;
 }
 
 .list {
   display: flex;
-}
-
-.listItem {
-  &:not(:last-child) {
-    margin-right: 3.5rem;
-  }
 }

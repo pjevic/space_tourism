@@ -1,4 +1,4 @@
-@import "../../main.scss";
+@import "../../SCSS/main.scss";
 
 .navigation {
   position: absolute;
@@ -26,20 +26,5 @@
     height: 9.6rem;
 
     padding-left: 10rem;
-  }
-
-  &__link {
-    font-family: "Barlow Condensed", sans-serif;
-    font-size: 1.6rem;
-    font-weight: 200;
-    line-height: 1.1875;
-    letter-spacing: 2.7px;
-    color: $--color__white;
-    text-transform: uppercase;
-
-    margin: 0 2.4rem;
-    padding: 35px 0;
-
-    border-bottom: 3px solid $--color__white;
   }
 }

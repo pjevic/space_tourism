@@ -1,8 +1,11 @@
-import { Link } from "react-router-dom";
+import { Link as ReactLink } from "react-router-dom";
 
 import PageTitle from "../../Components/PageTitle/PageTitle";
+import Link from "../../Components/UI/Link/Link";
+import Links from "../../Components/UI/Links/Links";
 import Heading2 from "../../Components/UI/Heading/Heading2";
 import Paragraph from "../../Components/UI/Paragraph/Paragraph";
+import Divider from "../../Components/UI/Divider/Divider";
 
 import webpMoon from "../../Assets/Images/02_Destination/image-moon.webp";
 import webpMars from "../../Assets/Images/02_Destination/image-mars.webp";
@@ -25,23 +28,16 @@ const Destination = () => {
       <div className="right">
         <nav className={style.nav}>
           <ul className={style.list}>
-            <li className={style.listItem}>
-              <Link>moon</Link>
-            </li>
-            <li className={style.listItem}>
-              <Link>mars</Link>
-            </li>
-            <li className={style.listItem}>
-              <Link>europa</Link>
-            </li>
-            <li className={style.listItem}>
-              <Link>titan</Link>
-            </li>
+            <Link className="link--sub" name="moon" />
+            <Link className="link--sub" name="mars" />
+            <Link className="link--sub" name="europa" />
+            <Link className="link--sub" name="titan" />
           </ul>
         </nav>
 
         <Heading2 innerText={heading2} />
         <Paragraph innerText={paragraph} />
+        <Divider marginT="5.4" marginB="2.8" />
       </div>
     </div>
   );

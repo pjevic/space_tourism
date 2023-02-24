@@ -1,0 +1,37 @@
+@import "../../../SCSS/main.scss";
+
+.link {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.1875;
+  letter-spacing: 2.7px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $--color__white;
+
+  padding: 3.5rem 0;
+  &:not(:last-child) {
+    margin-right: 4.8rem;
+  }
+
+  border-bottom: 3px solid $--color__white;
+
+  &--sub {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.1875;
+    letter-spacing: 2.7px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $--color__white;
+
+    padding: 1.2rem 0;
+    &:not(:last-child) {
+      margin-right: 3.5rem;
+    }
+
+    border-bottom: 3px solid $--color__white;
+  }
+}
