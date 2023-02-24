@@ -1,0 +1,25 @@
+@import "../../SCSS/main.scss";
+
+.destination {
+  height: 100vh;
+  background-image: url("../../Assets/Images/02_Destination/background-destination-desktop.jpg");
+  padding: 21.2rem 16.3rem 21.2rem 16.55rem;
+  color: $--color--white;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  margin-top: 6.4rem;
+}
+
+.list {
+  display: flex;
+}
+
+.listItem {
+  &:not(:last-child) {
+    margin-right: 3.5rem;
+  }
+}

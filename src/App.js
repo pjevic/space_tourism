@@ -2,8 +2,8 @@ import { Routes, Route } from "react-router-dom";
 
 import Navigation from "./SCSS/layout/navigation/navigation";
 import Home from "./Routes/01_Home/Home";
-import Crew from "./Routes/02_Crew/crew";
-import Destination from "./Routes/03_Destination/destination";
+import Crew from "./Routes/03_Crew/crew";
+import Destination from "./Routes/02_Destination/Destination";
 import Technology from "./Routes/04_Technology/technology";
 
 const App = () => {
