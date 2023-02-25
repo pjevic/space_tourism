@@ -1,0 +1,29 @@
+@import "../../SCSS/main.scss";
+
+.dot {
+  width: 8rem;
+  height: 8rem;
+
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.26);
+
+  margin-right: 8rem;
+  &:not(:last-child) {
+    margin-bottom: 3.2rem;
+  }
+
+  color: #fff;
+
+  font-family: "Bellefair";
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 3.7rem;
+  letter-spacing: 2px;
+
+  @include flexCenter;
+}
+
+.active {
+  color: $--color__primary--dark;
+  background: $--color--white;
+}

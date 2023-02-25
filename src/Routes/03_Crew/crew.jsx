@@ -31,7 +31,7 @@ const Crew = () => {
             <Dot />
           </ul>
         </Card>
-        <img src={webpPerson1} alt={name} />
+        <img src={webpPerson1} alt={name} className={style.img} />
       </Card>
     </div>
   );

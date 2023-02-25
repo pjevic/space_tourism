@@ -39,6 +39,17 @@
   }
 }
 
+.subheading {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  letter-spacing: 2.7px;
+  color: $--color__primary--light;
+  margin-bottom: 1.1rem;
+}
+
 .paragraph {
   font-family: "Barlow", sans-serif;
   font-weight: 400;
