@@ -22,12 +22,12 @@ const Destination = () => {
 
   return (
     <div className={style.destination}>
-      <div className="left">
+      <Card>
         <PageTitle number="01" title="pick your destination" />
         <img src={webpMoon} alt="Moon" />
-      </div>
+      </Card>
 
-      <div className="right">
+      <Card>
         <nav className={style.nav}>
           <ul className={style.list}>
             <Link className="link--sub" name="moon" />
@@ -40,11 +40,12 @@ const Destination = () => {
         <Heading2 innerText={heading2} />
         <Paragraph innerText={paragraph} />
         <Divider marginT="5.4" marginB="2.8" />
+
         <Card className="horizontal">
           <DataTile dataTitle="AVG. DISTANCE" data="384,400 km" />
           <DataTile dataTitle="Est. travel time" data="3 days" />
         </Card>
-      </div>
+      </Card>
     </div>
   );
 };

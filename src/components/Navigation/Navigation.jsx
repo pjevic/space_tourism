@@ -1,8 +1,7 @@
 import { Fragment } from "react";
-import { Outlet, Link as ReactLink } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 import Logo from "../UI/Logo/Logo";
-import Links from "../UI/Links/Links";
 import Link from "../UI/Link/Link";
 
 import style from "./Navigation.module.scss";
