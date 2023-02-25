@@ -3,6 +3,12 @@ import Card from "../../Components/UI/Card/Card";
 import Heading3 from "../../Components/UI/Heading/Heading3";
 import Heading4 from "../../Components/UI/Heading/Heading4";
 import Paragraph from "../../Components/UI/Paragraph/Paragraph";
+import Dot from "../../Components/Dot/Dot";
+
+import webpPerson1 from "../../Assets/Images/03_Crew/image-douglas-hurley.webp";
+import webpPerson2 from "../../Assets/Images/03_Crew/image-mark-shuttleworth.webp";
+import webpPerson3 from "../../Assets/Images/03_Crew/image-victor-glover.webp";
+import webpPerson4 from "../../Assets/Images/03_Crew/image-anousheh-ansari.webp";
 
 import style from "./Crew.module.scss";
 
@@ -18,7 +24,14 @@ const Crew = () => {
           <Heading4 innerText={title} />
           <Heading3 innerText={name} />
           <Paragraph innerText={paragraph} />
+          <ul className={style.dots}>
+            <Dot className="active" />
+            <Dot />
+            <Dot />
+            <Dot />
+          </ul>
         </Card>
+        <img src={webpPerson1} alt={name} />
       </Card>
     </div>
   );

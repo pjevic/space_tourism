@@ -1,0 +1,16 @@
+@import "../../SCSS/main.scss";
+
+.dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: $--color--dot;
+
+  &:not(:last-child) {
+    margin-right: 24px;
+  }
+}
+
+.active {
+  background-color: $--color__white;
+}
